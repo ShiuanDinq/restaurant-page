@@ -80,43 +80,13 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(style, options, obj) {\n  
 
 /***/ }),
 
-/***/ "./src/clear.js":
+/***/ "./src/print.js":
 /*!**********************!*\
-  !*** ./src/clear.js ***!
+  !*** ./src/print.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nlet clear = () => {\n  let content = document.getElementById('content');\n  let container = document.getElementsByClassName('container')[0];\n  container.remove();\n  content.className = '';\n  let buttons = document.getElementsByTagName('button');\n  for (let i=0; i< buttons.length; i++) {\n    buttons[i].className = \"\";\n  }\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (clear);\n\n//# sourceURL=webpack://restaurant-page/./src/clear.js?");
-
-/***/ }),
-
-/***/ "./src/home.js":
-/*!*********************!*\
-  !*** ./src/home.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _nav_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nav.js */ \"./src/nav.js\");\n\n\nlet home = () => {\n\n  let content = document.querySelector('#content');\n  content.classList.add('home');\n\n  //insert nav\n  if(!document.querySelector('nav')) {\n    let navbar = (0,_nav_js__WEBPACK_IMPORTED_MODULE_0__.default)();\n    content.appendChild(navbar);\n  }\n\n  //container\n  let container = document.createElement('div');\n  container.classList.add('container');\n  content.appendChild(container);\n  \n\n  //header\n  let header = document.createElement('header');\n  container.appendChild(header);\n  let headline = document.createElement('h1');\n  headline.textContent = `Cik Wee's Chwee Kueh`;\n  header.appendChild(headline);\n  let tagline = document.createElement('p');\n  tagline.innerHTML = 'Home of the best Chwee Kueh';\n  header.appendChild(tagline);\n\n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (home);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
-
-/***/ }),
-
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _clear_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./clear.js */ \"./src/clear.js\");\n\n\n\n\n\n\n(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)();\n\n\n\nlet homeBtn = document.getElementById('home');\nhomeBtn.onclick = () => {\n  (0,_clear_js__WEBPACK_IMPORTED_MODULE_2__.default)();\n  (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)();\n};\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/nav.js":
-/*!********************!*\
-  !*** ./src/nav.js ***!
-  \********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\nlet nav = () => {\n  //nav\n  let nav = document.createElement('nav');\n  let home = document.createElement('button');\n  home.innerHTML = 'Home';\n  home.id = 'home';\n  let about = document.createElement('button');\n  about.innerHTML = 'About';\n  about.id = 'about';\n  let menu = document.createElement('button');\n  menu.innerHTML = 'Menu';\n  menu.id = 'menu';\n  let contact = document.createElement('button');\n  contact.innerHTML = 'Contact Us';\n  contact.id = 'contact';\n  nav.appendChild(home);\n  nav.appendChild(about);\n  nav.appendChild(menu);\n  nav.appendChild(contact);\n\n  return nav;\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (nav);\n\n//# sourceURL=webpack://restaurant-page/./src/nav.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nconst content = document.querySelector('#content');\n\nconst container = document.createElement('div');\ncontainer.classList.add('container');\ncontent.appendChild(container);\ncontainer.textContent = 'hahaha'\n\n//# sourceURL=webpack://restaurant-page/./src/print.js?");
 
 /***/ })
 
@@ -192,7 +162,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/print.js");
 /******/ 	
 /******/ })()
 ;
