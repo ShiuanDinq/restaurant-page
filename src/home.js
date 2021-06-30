@@ -1,3 +1,4 @@
+import footer from './footer.js';
 import nav from './nav.js';
 
 let home = () => {
@@ -21,12 +22,16 @@ let home = () => {
   let header = document.createElement('header');
   container.appendChild(header);
   let headline = document.createElement('h1');
-  headline.textContent = `Cik Wee's Chwee Kueh`;
+  headline.textContent = `Cik Wee's`;
   header.appendChild(headline);
   let tagline = document.createElement('p');
-  tagline.innerHTML = 'Home of the best Chwee Kueh';
+  tagline.innerHTML = 'Home of Chwee Kueh';
   header.appendChild(tagline);
 
+  //footer
+  if(!document.querySelector('footer')) {
+    footer();
+  }
 
 }
 
