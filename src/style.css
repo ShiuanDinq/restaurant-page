@@ -92,12 +92,21 @@ header {
   transform: translate(-50%, -50%);
 }
 
+
 h1 {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 
-header p {
+
+
+h2{
   font-size: 2rem;
+  font-weight: bold;
+}
+
+
+p {
+  font-size: 1.5em;
 }
 
 nav {
@@ -145,15 +154,16 @@ nav button:hover {
   display: flex;
   flex-wrap:wrap ;
   width: 80vw;
-
-
+  align-items: center;
+  justify-content: center;
 }
 
 .item{
   width: 25vw;
-  height: 10vw;
   margin: 0 auto;
   padding: 2rem;
+  display:flex;
+  flex-direction: column;
 }
 
 .item:hover{
@@ -161,16 +171,16 @@ nav button:hover {
   cursor:pointer;
 }
 
-.itemName{
-  font-size: 2rem;
-  font-weight: bold;
-  color: rgb(243, 36, 78);
-
+.item > h2{
+  color: rgb(241, 156, 58);
 }
 
-.itemDescription{
-  font-size: 1rem;
+.item > p:hover{
+  color:cyan;
 }
+
+
+
 
 
 /* contact page */
@@ -183,14 +193,39 @@ nav button:hover {
   padding: 1rem;
 }
 
-.platformName{
-  font-size: 2rem;
-  font-weight: bold;
-  color: aqua;
+.platform > h2 {
+  color: rgb(241, 156, 58);
 }
 
-.platformDescription{
-  font-size: 1.2rem;
-  padding-top: 0.5rem;
+@media (max-width:580px) {
+  nav {
+    width: 100%;
+    justify-content:center;
+  }
+
+  nav button {
+    font-size: 1rem;
+  }
 }
 
+@media (max-width:440px) {
+  nav button {
+    font-size: 0.85rem;
+  }
+
+
+  p {
+    font-size: 0.8em;
+  }
+
+  .itemContainer{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .item{
+    width: 80vw;
+    padding: 1rem;
+    
+  }
+}

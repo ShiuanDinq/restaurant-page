@@ -11,7 +11,7 @@ let about = () => {
   let header = document.createElement('header');
   container.appendChild(header);
   let headline = document.createElement('h1');
-  headline.textContent = `  The story of Cik Wee's Chwee Kueh`;
+  headline.textContent = `  Our story`;
   header.appendChild(headline);
   let tagline = document.createElement('p');
   tagline.innerHTML = `From a humble beginning of roadside stall, Cik Wee's is now Malaysian's go-to for all their Chwee Kueh's needs`;

@@ -28,11 +28,9 @@ let contact = () => {
   ];
   for(let i=0; i< contact.length; i++){
     const platform = document.createElement('div');
-    const platformName = document.createElement('p');
+    const platformName = document.createElement('h2');
     const platformDescription = document.createElement('p');
 
-    platformName.classList.add('platformName');
-    platformDescription.classList.add('platformDescription');
     platform.classList.add('platform');
     
     platformName.innerHTML = contact[i][0];
