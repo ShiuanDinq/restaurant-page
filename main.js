@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \":root {\\n  box-sizing: border-box;\\n}\\n\\n*,\\n::before,\\n::after {\\n  box-sizing: inherit;\\n}\\n\\nbody {\\n  background-color: gray;\\n  /* background: url('./old-penang.jpg'); */\\n  background-repeat: no-repeat;\\n  background-size: 100%;\\n}\\n\\n.container {\\n  display: grid;\\n  grid-template-columns: 2fr 1fr;\\n  grid-template-rows: repeat(5, auto);\\n  grid-gap: 1.5em;\\n  max-width: 1080px;\\n  margin: 0 auto;\\n}\\n\\nheader,\\nnav {\\n  grid-column: 1 / 3;\\n  grid-row: span 1;\\n}\\n\\n.main {\\n  grid-column: 1 / 2;\\n  grid-row: 3 / 5;\\n}\\n\\n.sidebar-top{\\n  grid-column: 2 / 3;\\n  grid-row: 3 / 4;\\n}\\n\\n.sidebar-bottom{\\n  grid-column: 2 / 3;\\n  grid-row: 4 / 5;\\n}\\n\\n.bottom-bar{\\n  grid-column: 1 / 3;\\n  grid-row: 5 / 6;\\n}\\n\\n.tile {\\n  padding: 1.5em;\\n  background-color: lightgreen;\\n}\\n\\n.tile > :first-child {\\n  margin-top: 0;\\n}\\n\\n.tile * + * {\\n  margin-top: 1.5em;\\n}\\n\\n.site-nav {\\n  display: flex;\\n  margin: 0;\\n  padding: .5em;\\n  background-color:lightgreen;\\n  list-style-type: none;\\n  border-radius: .2em;\\n}\\n\\n.site-nav > li {\\n  margin-top: 0;\\n}\\n\\n.site-nav > li > a {\\n  display: block;\\n  padding: .5em 1em;\\n  background-color: #41cee0;\\n  color:black;\\n  text-decoration: none;\\n}\\n\\n.site-nav > li + li {\\n  margin-left: 1.5em;\\n  }\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _home_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.jpg */ \"./src/home.jpg\");\n/* harmony import */ var _about_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about.jpg */ \"./src/about.jpg\");\n// Imports\n\n\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_home_jpg__WEBPACK_IMPORTED_MODULE_2__);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_about_jpg__WEBPACK_IMPORTED_MODULE_3__);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"/* http://meyerweb.com/eric/tools/css/reset/\\n   v2.0 | 20110126\\n   License: none (public domain)\\n*/\\n\\nhtml, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed,\\nfigure, figcaption, footer, header, hgroup,\\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video {\\n\\tmargin: 0;\\n\\tpadding: 0;\\n\\tborder: 0;\\n\\tfont-size: 100%;\\n\\tfont: inherit;\\n\\tvertical-align: baseline;\\n}\\n/* HTML5 display-role reset for older browsers */\\narticle, aside, details, figcaption, figure,\\nfooter, header, hgroup, menu, nav, section {\\n\\tdisplay: block;\\n}\\nbody {\\n\\tline-height: 1;\\n}\\nol, ul {\\n\\tlist-style: none;\\n}\\nblockquote, q {\\n\\tquotes: none;\\n}\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n\\tcontent: '';\\n\\tcontent: none;\\n}\\ntable {\\n\\tborder-collapse: collapse;\\n\\tborder-spacing: 0;\\n}\\n\\n:root {\\n  box-sizing: border-box;\\n}\\n\\n*,\\n::before,\\n::after {\\n  box-sizing: inherit;\\n}\\n\\n\\n/* general */\\nbody {\\n  background-color: rgb(17, 17, 17);\\n  display: grid;\\n  grid-template-rows: 19fr 1fr;\\n  min-height: 100vh;\\n  text-align: center;\\n  position: relative;\\n}\\n\\n\\n\\n#content {\\n  color:white;\\n  background-repeat:no-repeat;\\n  background-size:cover;\\n}\\n\\nfooter{\\n  color: aliceblue;\\n  margin: auto;\\n  font-size: 0.8rem;\\n}\\n\\nheader {\\n  text-align: center;\\n  color: rgb(255, 255, 255);\\n  margin: 0;\\n  position: absolute;\\n  top: 50%;\\n  left: 50%;\\n  transform: translate(-50%, -50%);\\n}\\n\\nh1 {\\n  font-size: 6rem;\\n}\\n\\nheader p {\\n  font-size: 2rem;\\n}\\n\\nnav {\\n  height:3rem;\\n  max-width: 80%;\\n  margin: 0 auto;\\n  display:flex;\\n  align-items:center;\\n  border-bottom: 1px solid rgba(110,110,110,0.5);\\n}\\n\\nnav button {\\n  height: 100%;\\n  padding: 0 1em;\\n  display:flex;\\n  align-items:center;\\n  font-size:1.3em;\\n  background:none;\\n  border:none;\\n  color:white;\\n}\\n\\nnav button:hover {\\n  color:rgb(124, 124, 124);\\n  transition: all 0.2s ease;\\n  cursor:pointer;\\n  transform:translate(0, 2px);\\n\\n}\\n\\n/* pages background */\\n.home{\\n  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-position: center 20%;\\n}\\n\\n.about{\\n  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n  background-position: center 20%;\\n}\\n\\n\\n/* menu page */\\n.itemContainer{\\n  display: flex;\\n  flex-wrap:wrap ;\\n  width: 80vw;\\n\\n\\n}\\n\\n.item{\\n  width: 25vw;\\n  height: 10vw;\\n  margin: 0 auto;\\n  padding: 2rem;\\n}\\n\\n.item:hover{\\n  color:rgb(66, 224, 252);\\n  cursor:pointer;\\n}\\n\\n.itemName{\\n  font-size: 2rem;\\n  font-weight: bold;\\n  color: rgb(243, 36, 78);\\n\\n}\\n\\n.itemDescription{\\n  font-size: 1rem;\\n}\\n\\n\\n/* contact page */\\n.platformContainer{\\n  display:flex;\\n  flex-direction: column;;\\n}\\n\\n.platform {\\n  padding: 1rem;\\n}\\n\\n.platformName{\\n  font-size: 2rem;\\n  font-weight: bold;\\n  color: aqua;\\n}\\n\\n.platformDescription{\\n  font-size: 1.2rem;\\n  padding-top: 0.5rem;\\n}\\n\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant-page/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (cssWithMappingToString) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join(\"\");\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === \"string\") {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, \"\"]];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\n//# sourceURL=webpack://restaurant-page/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = url && url.__esModule ? url.default : url;\n\n  if (typeof url !== \"string\") {\n    return url;\n  } // If url is already wrapped in quotes, remove them\n\n\n  if (/^['\"].*['\"]$/.test(url)) {\n    // eslint-disable-next-line no-param-reassign\n    url = url.slice(1, -1);\n  }\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  } // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n\n\n  if (/[\"'() \\t\\n]/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://restaurant-page/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -80,6 +90,26 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(style, options, obj) {\n  
 
 /***/ }),
 
+/***/ "./src/about.jpg":
+/*!***********************!*\
+  !*** ./src/about.jpg ***!
+  \***********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"221479552ebf7b282903.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/about.jpg?");
+
+/***/ }),
+
+/***/ "./src/about.js":
+/*!**********************!*\
+  !*** ./src/about.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nlet about = () => {\n  let content = document.getElementById('content');\n  content.classList.add('about');\n\n  //container\n  let container = document.createElement('div');\n  container.classList.add('container');\n  content.appendChild(container);\n\n  //header\n  let header = document.createElement('header');\n  container.appendChild(header);\n  let headline = document.createElement('h1');\n  headline.textContent = `  The story of Cik Wee's Chwee Kueh`;\n  header.appendChild(headline);\n  let tagline = document.createElement('p');\n  tagline.innerHTML = `From a humble beginning of roadside stall, Cik Wee's is now Malaysian's go-to for all their Chwee Kueh's needs`;\n  header.appendChild(tagline);\n  \n  \n\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (about);\n\n//# sourceURL=webpack://restaurant-page/./src/about.js?");
+
+/***/ }),
+
 /***/ "./src/clear.js":
 /*!**********************!*\
   !*** ./src/clear.js ***!
@@ -90,13 +120,43 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nlet contact = () => {\n  let content = document.getElementById('content');\n  content.classList.add('contact');\n\n  //container\n  let container = document.createElement('div');\n  container.classList.add('container');\n  content.appendChild(container);\n\n  //header\n  let header = document.createElement('header');\n  container.appendChild(header);\n\n  let headline = document.createElement('h1');\n  headline.textContent = `Contact us`;\n  header.appendChild(headline);\n\n  let platformContainer = document.createElement('div');\n  platformContainer.classList.add('platformContainer');\n  header.appendChild(platformContainer);\n\n  \n  let contact =[\n    ['Facebook',`Cik Wee's`], \n    ['Instagram',`@theOriginalChweeKueh`], \n    ['Whatsapp','+60-1234567'], \n    ['Address','No.55, Jln Gunung Tinggi, 44000, Gunung Tahan, Malaysia']\n  ];\n  for(let i=0; i< contact.length; i++){\n    const platform = document.createElement('div');\n    const platformName = document.createElement('p');\n    const platformDescription = document.createElement('p');\n\n    platformName.classList.add('platformName');\n    platformDescription.classList.add('platformDescription');\n    platform.classList.add('platform');\n    \n    platformName.innerHTML = contact[i][0];\n    platformDescription.innerHTML = contact[i][1];\n    \n    platformContainer.appendChild(platform);\n    platform.appendChild(platformName);\n    platform.appendChild(platformDescription);\n  }\n  \n\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (contact);\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
+
+/***/ }),
+
+/***/ "./src/footer.js":
+/*!***********************!*\
+  !*** ./src/footer.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nlet footer = () => {\n  let footer = document.createElement('footer');\n  let footerText = document.createElement('p');\n  footer.appendChild(footerText);\n  footerText.innerHTML = `Copyright @Edmund HSD. All rights reserved.`\n  document.body.appendChild(footer);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (footer);\n\n//# sourceURL=webpack://restaurant-page/./src/footer.js?");
+
+/***/ }),
+
+/***/ "./src/home.jpg":
+/*!**********************!*\
+  !*** ./src/home.jpg ***!
+  \**********************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ca3c376429a7299f5291.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/home.jpg?");
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _nav_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nav.js */ \"./src/nav.js\");\n\n\nlet home = () => {\n\n  let content = document.querySelector('#content');\n  content.classList.add('home');\n\n  //insert nav\n  if(!document.querySelector('nav')) {\n    let navbar = (0,_nav_js__WEBPACK_IMPORTED_MODULE_0__.default)();\n    content.appendChild(navbar);\n  }\n\n  //container\n  let container = document.createElement('div');\n  container.classList.add('container');\n  content.appendChild(container);\n  \n\n  //header\n  let header = document.createElement('header');\n  container.appendChild(header);\n  let headline = document.createElement('h1');\n  headline.textContent = `Cik Wee's Chwee Kueh`;\n  header.appendChild(headline);\n  let tagline = document.createElement('p');\n  tagline.innerHTML = 'Home of the best Chwee Kueh';\n  header.appendChild(tagline);\n\n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (home);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _footer_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.js */ \"./src/footer.js\");\n/* harmony import */ var _nav_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav.js */ \"./src/nav.js\");\n\n\n\nlet home = () => {\n\n  let content = document.querySelector('#content');\n  content.classList.add('home');\n\n  //insert nav\n  if(!document.querySelector('nav')) {\n    let navbar = (0,_nav_js__WEBPACK_IMPORTED_MODULE_1__.default)();\n    content.appendChild(navbar);\n  }\n\n  //container\n  let container = document.createElement('div');\n  container.classList.add('container');\n  content.appendChild(container);\n  \n\n  //header\n  let header = document.createElement('header');\n  container.appendChild(header);\n  let headline = document.createElement('h1');\n  headline.textContent = `Cik Wee's`;\n  header.appendChild(headline);\n  let tagline = document.createElement('p');\n  tagline.innerHTML = 'Home of Chwee Kueh';\n  header.appendChild(tagline);\n\n  //footer\n  if(!document.querySelector('footer')) {\n    (0,_footer_js__WEBPACK_IMPORTED_MODULE_0__.default)();\n  }\n\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (home);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
 
 /***/ }),
 
@@ -106,7 +166,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _clear_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./clear.js */ \"./src/clear.js\");\n\n\n\n\n\n\n(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)();\n\n\n\nlet homeBtn = document.getElementById('home');\nhomeBtn.onclick = () => {\n  (0,_clear_js__WEBPACK_IMPORTED_MODULE_2__.default)();\n  (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)();\n};\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ \"./src/home.js\");\n/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about.js */ \"./src/about.js\");\n/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.js */ \"./src/menu.js\");\n/* harmony import */ var _contact_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact.js */ \"./src/contact.js\");\n/* harmony import */ var _clear_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./clear.js */ \"./src/clear.js\");\n\n\n\n\n\n\n\n\n\n(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)();\n\n\n\nlet homeBtn = document.getElementById('home');\nhomeBtn.onclick = () => {\n  (0,_clear_js__WEBPACK_IMPORTED_MODULE_5__.default)();\n  (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.default)();\n};\n\nlet aboutBtn = document.getElementById('about');\naboutBtn.onclick = () => {\n  (0,_clear_js__WEBPACK_IMPORTED_MODULE_5__.default)();\n  (0,_about_js__WEBPACK_IMPORTED_MODULE_2__.default)();\n};\n\nlet menuBtn = document.getElementById('menu');\nmenuBtn.onclick = () => {\n  (0,_clear_js__WEBPACK_IMPORTED_MODULE_5__.default)();\n  (0,_menu_js__WEBPACK_IMPORTED_MODULE_3__.default)();\n};\n\nlet contactBtn = document.getElementById('contact');\ncontactBtn.onclick = () => {\n  (0,_clear_js__WEBPACK_IMPORTED_MODULE_5__.default)();\n  (0,_contact_js__WEBPACK_IMPORTED_MODULE_4__.default)();\n};\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nlet menu = () => {\n  let content = document.getElementById('content');\n  content.classList.add('menu');\n\n  //container\n  let container = document.createElement('div');\n  container.classList.add('container');\n  content.appendChild(container);\n\n  //header\n  let header = document.createElement('header');\n  container.appendChild(header);\n\n  let headline = document.createElement('h1');\n  headline.textContent = `Our Specialties`;\n  header.appendChild(headline);\n\n  let itemContainer = document.createElement('div');\n  itemContainer.classList.add('itemContainer');\n  header.appendChild(itemContainer);\n\n  \n  let menu =[\n    ['Fried Chwee Kueh','Stir fried Chwee Kueh with generous serving of prawns. Comes with Chwee Kueh'], \n    ['Steamed Chwee Kueh','Traditional Chwee Kueh served fresh with topping of preserved radish. Comes with Chwee Kueh'], \n    ['Braised Chwee Kueh','Chwee kueh braised for days in thick gravy of traditional pork trotter. Comes with Chwee Kueh'], \n    ['Chwee Kueh Soup','Chwee kueh infused with the essence of ginseng soup. Comes with Chwee Kueh']\n  ];\n  for(let i=0; i< menu.length; i++){\n    const item = document.createElement('div');\n    const itemName = document.createElement('p');\n    const itemDescription = document.createElement('p');\n\n    itemName.classList.add('itemName');\n    itemDescription.classList.add('itemDescription');\n    item.classList.add('item');\n    \n    itemName.innerHTML = menu[i][0];\n    itemDescription.innerHTML = menu[i][1];\n    \n    itemContainer.appendChild(item);\n    item.appendChild(itemName);\n    item.appendChild(itemDescription);\n  }\n  \n\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menu);\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ }),
 
@@ -171,6 +241,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +267,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
